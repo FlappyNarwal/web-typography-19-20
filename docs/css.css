@@ -364,11 +364,7 @@ You probably want to change the styling.
 }
 
 
-@keyframes spin {
-100%{
-		transform: rotate(360deg);
-}
-}
+
 /*A*/
 .p4.on span:first-of-type {
 	opacity: 1;
@@ -602,6 +598,12 @@ You probably want to change the styling.
 }
 
 /* Animations */
+
+@keyframes spin {
+	100%{
+			transform: rotate(360deg);
+	}
+	}
 
 @keyframes shake {
 	0% { transform: skewX(-15deg); }
