@@ -15,14 +15,12 @@ Met deze punten wil ik graag rekening houden tijdens het maken van deze opdracht
 Ik heb ervoor gekozen om het Brenner font te gebruiken. Brenner bevat veel stijlen en omdat ik graag emotie en sfeer wil overbrengen met mijn captions, leek Brenner mij hiervoor de beste keuze.
 
 
+## Week 1: Eerste experiment
 
 
+## Week 2: Iteraties
 
 
+## Week 3: Eindproduct
 
-## Eindproduct onderbouwing
-
-
-
-## Feedback 
 
