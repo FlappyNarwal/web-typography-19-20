@@ -7,14 +7,33 @@ Feel free to adjust the defaults to your needs.
 ********************************************** */
 
 body{
-	background-color: #222727;
+	background-color: black;
+	height: 100%;
 }
 
+iframe{
+	display: block;
+    width: 80%;
+    margin: auto;
+	height: 80vh;
+	z-index: -1;
+	
+}
+
+#closed-captions{
+
+	background: red;
+	
+}
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
-
+	/* van onderuit de text omhoog verplaatsen */
+	bottom: 8%;
+	/* hiermee zet ik de text in het midden */
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 #closed-captions .on {
 	opacity: 1;
