@@ -17,6 +17,9 @@ Ik heb ervoor gekozen om het Brenner font te gebruiken. Brenner bevat veel stijl
 
 ## Week 1: Eerste experiment
 
+In de eerste week heb ik een aantal verschillende dingen geprobeerd om te kijken hoe dit door Darice werd ervaren. Ik had een spreker toegevoegd aan de teksten wat het duidelijker zou moeten maken wie er op welk moment aan het woord is. Het contrast mag nog wel wat hoger om de leesbaarheid te bevoorderen. In mijn eerste versie had ik de animaties overeen laten komen met wat er werd gezegd, maar dit kan verwarring veroorzaken. Zo draaide het woord "spin" ook daadwerkelijk rond. Dit kan een misverstand veroorzaken met hoe het woord gezegd word, dus heb ik na de eerste week besloten om mij volledig op de achtergrondgeluiden te focussen. Hieronder zie je een aantal screenshots van mijn eerste versie:
+
+![Week 1](https://user-images.githubusercontent.com/45418246/82219751-00389c00-991e-11ea-98a6-5b5896da268b.png)
 
 ## Week 2: Iteraties
 
