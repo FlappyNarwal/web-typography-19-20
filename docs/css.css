@@ -44,6 +44,11 @@ iframe{
 
 /* sounds */
 
+body.sound0{
+
+	animation: 3s shake linear;
+}
+
 body.sound1{
 	animation: 1s sound1;
 
@@ -60,24 +65,36 @@ body.sound3{
 
 }
 
-body.sound5 {
-
-    animation: alarm 1s 1 linear;
+body.sound5{
+	animation: alarm 1s 1 linear;
+	animation-fill-mode: backwards;
 }
 
-body.sound7 {
-
+body.sound7{
+	all:unset;
     animation: alarm 1s 1 linear;
+	animation-fill-mode: backwards;
 }
 
-body.sound8 {
 
-    animation: alarm 1s 1 linear;
+body.sound8 { 
+	
+	animation: alarm 1s 1 linear;
+	animation-fill-mode: backwards;
+	
 }
 
-body.sound9 {
+/* body.sound5.sound7{
 
-    animation: alarm 1s 1 linear;
+	background: green;
+} */
+/* .sound8 ~ .sound5, .sound7{
+	all: unset
+} */
+
+body.sound9{
+
+    animation: alarm 1s  linear;
 }
 
 body.sound10{
@@ -90,7 +107,7 @@ The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
 	it shows the text after a delay, which 
 	corresponds with the time that the word is
-	spoken.
+	spoken
 You probably want to change the styling.
 ********************************************** */
 .p0 span, .p3 span, .p4 span, .p5 span, .p6 span, .p7 span, .p8 span, .p9 span, .p10 span, .p11 span, .p12 span, .p13 span, .p14 span, .p15 span, .p16 span, .p17 span, .p18 span,
@@ -615,7 +632,7 @@ You probably want to change the styling.
 	font-style: italic;
 	font-family: "brenner sans condensed";
 	color:red;
-	animation:  .5s shake  infinite alternate;
+	animation:  .5s shakin  infinite alternate;
 	position: relative;
     display: inline-block;
 }
@@ -629,7 +646,7 @@ You probably want to change the styling.
 	font-style: italic;
 	font-family: "brenner sans condensed";
 	color:red;
-	animation:  .5s shake  infinite alternate;
+	animation:  .5s shakin  infinite alternate;
 	position: relative;
     display: inline-block;
 
@@ -3222,7 +3239,7 @@ You probably want to change the styling.
 	}
 	}*/
 
-@keyframes shake {
+@keyframes shakin {
 	0% { transform: skewX(-15deg); }
 	5% { transform: skewX(15deg); }
 	10% { transform: skewX(-15deg); }
@@ -3244,6 +3261,40 @@ You probably want to change the styling.
 	90% { transform: skewX(15deg); }
 	95% { transform: skewX(-15deg); }
 	100% { transform: skewX(15deg); }  
+  }
+
+  @keyframes shake{
+	  0%{
+		   transform: rotate(0deg);
+		}
+	  10%{ 
+		  transform: rotate(.7deg);
+		}
+	  20%{
+		   transform: rotate(0deg);
+		}
+	  30%{ 
+		  transform: rotate(-.7deg);
+		}
+	  40%{ 
+		  transform: rotate(0deg);}
+	50%{ 
+		transform: rotate(.7deg);
+	 }
+	60%{
+	 transform: rotate(0deg);
+		 }
+	70%{ 
+	transform: rotate(-.7deg);
+		}
+		80%{ 
+		transform: rotate(0deg);}
+
+			90%{ 
+				transform: rotate(-.7deg);
+			  }
+			8100%{ 
+				transform: rotate(0deg);}
   }
   
   @keyframes sound1{
