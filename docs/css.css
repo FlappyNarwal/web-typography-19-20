@@ -71,8 +71,7 @@ body.sound5{
 }
 
 body.sound7{
-	all:unset;
-    animation: alarm 1s 1 linear;
+    animation: alarm2 1s 1 linear;
 	animation-fill-mode: backwards;
 }
 
@@ -94,7 +93,7 @@ body.sound8 {
 
 body.sound9{
 
-    animation: alarm 1s  linear;
+    animation: alarm3 1s  linear;
 }
 
 body.sound10{
@@ -3349,3 +3348,32 @@ You probably want to change the styling.
 
 }
 
+@keyframes alarm2 {
+    0%{
+		background: linear-gradient(270deg, #000000, #ff0000, #000000);
+		background-size: 600% 600%;
+		background-position:0% 50%
+	}
+	100%
+	{
+		background: linear-gradient(270deg, #000000, #ff0000, #000000);
+		background-size: 600% 600%;
+		background-position:100% 50%
+	}
+
+}
+
+@keyframes alarm3 {
+    0%{
+		background: linear-gradient(270deg, #000000, #ff0000, #000000);
+		background-size: 600% 600%;
+		background-position:0% 50%
+	}
+	100%
+	{
+		background: linear-gradient(270deg, #000000, #ff0000, #000000);
+		background-size: 600% 600%;
+		background-position:100% 50%
+	}
+
+}
