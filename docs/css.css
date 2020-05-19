@@ -54,10 +54,50 @@ body.sound1{
 
 }
 
+body.sound1::before {
+	content: "[BUZZ]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
+}
+
+/*body.sound1::after {
+	content: " ";
+	visibility: hidden;
+
+}*/
+
 body.sound2{
 	animation: 1s sound2;
 	background-color: red;
 
+}
+
+body.sound2::before {
+	content: "[Siren]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout2;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
 }
 
 body.sound3{
@@ -70,9 +110,43 @@ body.sound5{
 	animation-fill-mode: backwards;
 }
 
+body.sound5::before {
+	content: "[Beeping sound]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout3;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
+}
+
 body.sound7{
     animation: alarm2 1s 1 linear;
 	animation-fill-mode: backwards;
+}
+
+body.sound7::before {
+	content: "[Beeping sound]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout4;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
 }
 
 
@@ -81,6 +155,23 @@ body.sound8 {
 	animation: alarm 1s 1 linear;
 	animation-fill-mode: backwards;
 	
+}
+
+body.sound8::before {
+	content: "[Beeping sound]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout5;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
 }
 
 /* body.sound5.sound7{
@@ -96,10 +187,44 @@ body.sound9{
     animation: alarm3 1s  linear;
 }
 
+body.sound9::before {
+	content: "[Beeping sound]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 1s 1 fadeout6;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
+}
+
 body.sound10{
 	animation:  42s sound10;
 	/* animation-fill-mode: forwards; */
 } 
+   
+body.sound10::before {
+	content: "[High tone]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: small;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 42s 1 fadeout7;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
+}
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -3377,3 +3502,163 @@ You probably want to change the styling.
 	}
 
 }
+
+@keyframes fadeout {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+
+@keyframes fadeout2 {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+@keyframes fadeout3 {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+@keyframes fadeout4 {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+
+@keyframes fadeout5 {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+
+@keyframes fadeout6 {
+    0%{
+		opacity: 0%;
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 50%;
+	}
+
+	0%{
+		opacity: 0%;
+	}
+
+}
+
+@keyframes fadeout7 {
+    0%{
+		opacity: 0%;
+		transform: scale(0);
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 100%;
+	}
+	90%{
+		opacity: 100%;
+	}
+	
+	100%{
+		opacity: 0%;
+		transform: scale(2.5);
+	}
+
+}
+
+
+
