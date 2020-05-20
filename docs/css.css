@@ -226,6 +226,50 @@ body.sound10::before {
 	z-index: 1;
 }
 
+body.sound11 {
+	background: linear-gradient(-45deg, black, rgb(8, 53, 51),rgb(78, 180, 184));
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+body.sound11::after {
+	content: "[High tone]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: small;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 45s 1 fadeout8;
+	position: absolute;
+	display: block;
+	bottom: 15%;
+	left: 48.5%;
+	z-index: 1;
+}
+
+body.sound12::after {
+	content: "[Computer beeping]";
+    opacity: 0;
+    transition: 0s;
+    font-weight: 800;
+    font-size: small;
+    font-style: italic;
+    font-family: "brenner sans";
+    color: white;
+    animation: 1s 1 fadeout2;
+    position: absolute;
+    display: block;
+    bottom: 47%;
+    left: 67%;
+    z-index: 1;
+}
+
+body.sound13 {
+	background-color: black;
+}
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -3915,7 +3959,7 @@ You probably want to change the styling.
 	transition: 0s 2.5s;
 	font-weight: 400;
 	font-size: large;
-	font-style: normal;
+	font-style: italic;
 	font-family: "brenner sans";
 	color:white;
 	
@@ -3928,7 +3972,7 @@ You probably want to change the styling.
 	transition: 0s 2.8s;
 	font-weight: 400;
 	font-size: large;
-	font-style: normal;
+	font-style: italic;
 	font-family: "brenner sans";
 	color:white;
 	
@@ -3938,9 +3982,9 @@ You probably want to change the styling.
 .p54.on span:nth-of-type(13) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-weight: 400;
+	font-weight: 800;
 	font-size: large;
-	font-style: normal;
+	font-style: italic;
 	font-family: "brenner sans";
 	color:white;
 	
@@ -5377,6 +5421,20 @@ You probably want to change the styling.
 	}
 	}*/
 
+	
+	
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
 @keyframes shakin {
 	0% { transform: skewX(-15deg); }
 	5% { transform: skewX(15deg); }
@@ -5672,7 +5730,35 @@ You probably want to change the styling.
 		transform: scale(2.5);
 	}
 
+
+	
+	
 }
+@keyframes fadeout8 {
+    0%{
+		opacity: 0%;
+		transform: scale(0);
+	}
+	25%{
+		opacity: 50%;
+	}
+
+	50%{
+		opacity: 100%;
+	}
+
+	75%{
+		opacity: 100%;
+	}
+	90%{
+		opacity: 100%;
+	}
+	
+	100%{
+		opacity: 0%;
+		transform: scale(2.5);
+	}
 
 
 
+}
