@@ -127,6 +127,23 @@ body.sound5::before {
 	z-index: 1;
 }
 
+body.sound4::after {
+	content: "[Voice through microphone]";
+	opacity: 0;
+	transition: 0s;
+	font-weight: 800;
+	font-size: large;
+	font-style: italic;
+	font-family: "brenner sans";
+	color:white;
+	animation: 2s 1 fadeout3;
+	position: absolute;
+	display: block;
+	bottom: 64%;
+	left: 48.5%;
+	z-index: 1;
+}
+
 body.sound7{
     animation: alarm2 1s 1 linear;
 	animation-fill-mode: backwards;
@@ -229,10 +246,11 @@ body.sound10::before {
 body.sound11 {
 	background: linear-gradient(-45deg, black, rgb(8, 53, 51),rgb(78, 180, 184));
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 10s ease infinite;   
+	/*animation-iteration-count: 4;*/
 }
 
-body.sound11::after {
+body.sound11::before {
 	content: "[High tone]";
 	opacity: 0;
 	transition: 0s;
@@ -254,7 +272,7 @@ body.sound12::after {
     opacity: 0;
     transition: 0s;
     font-weight: 800;
-    font-size: small;
+	font-size: large;
     font-style: italic;
     font-family: "brenner sans";
     color: white;
@@ -266,8 +284,9 @@ body.sound12::after {
     z-index: 1;
 }
 
-body.sound13 {
-	background-color: black;
+body.sound13{
+	background: black;
+	animation: fadetoblack 1s linear;
 }
 
 /* **********************************************
@@ -281,7 +300,8 @@ You probably want to change the styling.
 .p0 span, .p3 span, .p4 span, .p5 span, .p6 span, .p7 span, .p8 span, .p9 span, .p10 span, .p11 span, .p12 span, .p13 span, .p14 span, .p15 span, .p16 span, .p17 span, .p18 span,
 .p19 span, .p20 span, .p21 span, .p22 span, .p23 span, .p24 span, .p25 span, .p26 span, .p27 span, .p28 span, .p29 span, .p30 span, .p31 span, .p32 span, .p33 span, .p34 span,
 .p35 span, .p36 span, .p37 span, .p38 span, .p39 span, .p40 span, .p41 span, .p42 span, .p43 span, .p44 span, .p45 span, .p46 span, .p47 span, .p48 span, .p49 span, .p50 span,
-.p51 span, .p52 span, .p53 span, .p54 span, .p55 span, .p56 span {
+.p51 span, .p52 span, .p53 span, .p54 span, .p55 span, .p56 span, .p56 span, .p57 span, .p58 span, .p59 span, .p60 span, .p61 span, .p62 span, .p63 span, .p64 span, .p65 span,
+.p66 span, .p67 span, .p68 span, .p69 span, .p70 span, .p71 span, .p72 span, .p73 span, .p74 span, .p75 span, .p76 span, .p77 span, .p78 span, .p79 span {
 	opacity: 0;
 	font-family: brenner;
 
@@ -4147,6 +4167,7 @@ You probably want to change the styling.
 	font-style: normal;
 	font-family: "brenner sans";
 	color:white;
+	
 }
 
 /*interlinked*/
@@ -5760,5 +5781,14 @@ You probably want to change the styling.
 	}
 
 
+}
 
+@keyframes fadetoblack{
+from{
+	background-color: rgb(8, 53, 51),rgb(78, 180, 184)
+}	
+	
+to{
+background-color: black;
+}
 }
