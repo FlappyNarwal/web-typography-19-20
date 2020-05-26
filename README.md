@@ -1,6 +1,6 @@
 # Closed Captions
 
-Link:
+Link: https://flappynarwal.github.io/web-typography-19-20/
 
 ## Gesprek met Darice
 
