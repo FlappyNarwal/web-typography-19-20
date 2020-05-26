@@ -74,3 +74,22 @@ Tijdens deze scene klinkt er een hoge toon die alsmaar luider wordt. Dit heb ik 
 De captions wisselen elkaar af. Korte zinnen van de Questioner verschijnen links, terwijl Officer K zijn tekst rechts verschijnt. Hiermee wil ik de snelle afwisseling van de dialoog visualiseren en ook die mechanische sfeer overbrengen. Het is alsof 2 robots tegen elkaar praten. Dit heb ik gedaan door een aantal `marges` mee te geven aan de gesproken tekst.
 
 ![Baseline test 1](https://user-images.githubusercontent.com/45418246/82937580-ae80b900-9f90-11ea-8320-d29c69570fed.gif)
+
+**Muziek**
+
+Tijdens de tweede Baseline test klinkt er muziek op de achtergrond. Deze heb ik gevisualiseerd met een pulserende gradient die donker en licht wordt samen met de muziek die hard en zacht klinkt. De muziek verloopt als een soort golf, daarom heb ik ook een geanimeerde gradient gebruikt.
+
+![Muziek](https://user-images.githubusercontent.com/45418246/82945539-66b45e80-9f9d-11ea-8510-dee5e7cdb68f.gif)
+
+**Vertraging**
+
+Op een gegeven moment lijkt het alsof de Questioner langzamer praat. Omdat dit normaal in lopende tekst verloren gaat heb ik hier een `delay` gezet op de individuele woorden. Ook heb ik de stijl van de woorden aangepast om te laten zien dat op dit moment de stem anders klinkt dan normaal en vertraagd lijkt.
+
+![Vertraging](https://user-images.githubusercontent.com/45418246/82946037-f0fcc280-9f9d-11ea-9b3e-efc45962334d.gif)
+
+
+**Twijfel**
+
+Officer K lijkt in de tweede Baseline test minder zeker van zijn zaak. Zijn antwoorden zijn minder mechanisch en hij lijkt op momenten een soort twijfel te vertonen. Daarom heb ik in de `html` "..." toegevoegd, om zo ook via tekst over te brengen dat er iets is veranderd in Officer K.
+
+![Twijfel](https://user-images.githubusercontent.com/45418246/82946390-8ef08d00-9f9e-11ea-9456-799101001a09.gif)
