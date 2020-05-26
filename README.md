@@ -1,7 +1,6 @@
-# De Opdracht
+# Closed Captions
 
-
-
+Link:
 
 ## Gesprek met Darice
 
@@ -10,10 +9,12 @@ Tijdens het gesprek met Darice zijn er een aantal punten besproken waar zij mee 
 Met deze punten wil ik graag rekening houden tijdens het maken van deze opdracht. Je moet natuurlijk creatief zijn en experimenteren, maar omdat je ook tegelijkertijd voor iemand ontwerpt, wil ik Darice hier bij wel in gedachte houden.
 
 
-## Fontkeuze Onderbowing
+## Fontkeuze Onderbouwing
 
 Ik heb ervoor gekozen om het Brenner font te gebruiken. Brenner bevat veel stijlen en omdat ik graag emotie en sfeer wil overbrengen met mijn captions, leek Brenner mij hiervoor de beste keuze.
 
+
+## Design Principles
 
 ## Week 1: Eerste experiment
 
@@ -23,7 +24,12 @@ In de eerste week heb ik een aantal verschillende dingen geprobeerd om te kijken
 
 ## Week 2: Iteraties
 
+In de tweede week heb ik de feedback van de week ervoor doorgevoerd. Zo heb ik meer contrast toegevoegd en heeft de spreker een kleur gekregen zodat je deze bijna onbewust kunt onderscheiden van de dialoog. Daarnaast heb ik het Iframe groter gemaakt en in het midden van de pagina geplaatst. Dit in combinatie met de ondertiteling die nu in de video verschijnt, krijg je meer het bioscoop gevoel. TIjdens dit tweede feedback gesprek kwam naar boven dat Darice graag nog achtergrondgeluiden met tekst ondersteunt wilde zien. Dit maakt het voor haar duidelijker wat voor geluid er precies afspeelt in combinatie met de visuele animaties.
+
+![Week 2](https://user-images.githubusercontent.com/45418246/82929428-eaf9e800-9f83-11ea-8f7a-cd7e38fc3fec.png)
 
 ## Week 3: Eindproduct
+
+Hier zal ik per animatie uitleggen wat ik heb gedaan en waarom ik het op deze manier heb toegepast.
 
 
