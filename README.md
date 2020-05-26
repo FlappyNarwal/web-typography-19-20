@@ -41,7 +41,7 @@ In de tweede week heb ik de feedback van de week ervoor doorgevoerd. Zo heb ik m
 
 ## Week 3: Eindproduct
 
-Hier zal ik per animatie uitleggen wat ik heb gedaan en waarom ik het op deze manier heb toegepast.
+Hieronder wordt per belangrijke animatie uitgelegd wat ik heb gedaan.
 
 **Openingsscene**
 
@@ -59,3 +59,18 @@ Ik heb de geluiden en de teksten tegelijk kunnen laten afspelen door `::Before` 
 ![Alarmen](https://user-images.githubusercontent.com/45418246/82932545-e257e080-9f88-11ea-8588-bb54d4b48094.gif)
 
 ![Specifiek geluid](https://user-images.githubusercontent.com/45418246/82932994-948fa800-9f89-11ea-98bd-4b1450c0394b.gif)
+
+
+**Aggressie**
+
+Om duidelijk te maken dat de politieman een gemene opmerking maakt heb ik de tekst rood gemaakt en laten trillen. Het font heb ik niet al te groot gemaakt; ik wil niet laten lijken alsof hij schreeuwt. Dit trillen heb ik met `transform: Skew (xdeg)` gedaan en vervolgens snel laten afspelen om de trilling te veroorzaken.
+
+![Aggressie](https://user-images.githubusercontent.com/45418246/82936396-d1aa6900-9f8e-11ea-867d-922e483a8f5c.gif)
+
+**Baseline test 1**
+
+Tijdens deze scene klinkt er een hoge toon die alsmaar luider wordt. Dit heb ik gevisualiseerd met de achtergrond die steeds feller en lichter wordt. Daarnaast verschijnt de omschrijvende tekst steeds groter in beeld. Aan het einde van de scene wanneer de hoge toon stopt, wordt de achtergrond weer donker en verdwijnt de omschrijvende tekst om aan te geven dat het geluid voorbij is. Dit heb ik gedaan door `keyframes` aan te maken met percentages, waarbij 100% de witte kleur is. Door een afspeeltijd in seconden mee te geven aan de `animation` speelt deze af gedurende de hoge toon.
+
+De captions wisselen elkaar af. Korte zinnen van de Questioner verschijnen links, terwijl Officer K zijn tekst rechts verschijnt. Hiermee wil ik de snelle afwisseling van de dialoog visualiseren en ook die mechanische sfeer overbrengen. Het is alsof 2 robots tegen elkaar praten. Dit heb ik gedaan door een aantal `marges` mee te geven aan de gesproken tekst.
+
+![Baseline test 1](https://user-images.githubusercontent.com/45418246/82937580-ae80b900-9f90-11ea-8320-d29c69570fed.gif)
