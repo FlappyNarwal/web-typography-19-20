@@ -27,6 +27,23 @@ Ik heb ervoor gekozen om het Brenner font te gebruiken. Brenner bevat veel stijl
 
 ## Design Principles
 
+**Study situation**
+
+Mensen met beperkingen ervaren films op een andere manier. Veel momenten van de film kunnen verloren gaan of niet opgemerkt worden zonder geluid. Ik heb Darice hierover kunnen spreken. Zij ervaart films heel anders dan ik, en de enige manier waarop ik iets zou kunnen ontwerpen wat voor haar zou werken, is als ik haar ervaringen begrijp en haar feedback verwerk. Zo dacht ik in eerste instantie dat achtergrond kleuren en/of bewewging genoeg zouden zijn om haar duidelijk te maken wat voor een geluid afspeelde, maar bleek er uiteindelijk toch nog textuele ondersteuning nodig te zijn; want anders weet je wel **dat** er geluid is, maar niet **wat** dat geluid is. Ook heb ik de hele film gekeken en daarna een aantal scenes zonder geluid, om te zien of ik dingen zou missen. Momenten waar ik eerst kippenvel van kreeg lieten mij vervolgens koud.
+
+
+**Ignore conventions**
+
+Ik heb gekeken naar welke conventies of regels je vaak tegenkomt met betrekking tot closed captions. Een aantal heb ik gevolgd; zoals bijvoorbeeld de spreker en geluiden tussen haakjes. Maar ik heb ook dingen gedaan die niet tot de traditionele regels behoren. Bijvoorbeeld het hele scherm laten bewegen, kleurgebruik in tekst en achtergrond. Maar ook een delay in het verschijnen van de captions. Ik las dat sommige mensen die captions lezen "gespoiled" worden. Op het scherm wordt een grote "reveal" voorbereid, maar in de captions kun je al vooruit lezen en is de verassing weg. Daarom wil ik niet altijd de hele zin meteen op het scherm weergeven, maar de tekst laten verschijnen terwijl het wordt gezegd.
+
+**Prioritise identity**
+
+Zonder Darice had dit project er waarschijnlijk heel anders uit gezien. Door met haar te testen en haar advies te vragen heb ik keuzes gemaakt die ik normaal mogelijk niet had gemaakt. Zo had ik in eerste instantie nooit gedacht dat ik tekst op het beeld zou laten zien, dit leek mij juist onhandig. Maar tijdens het testen merkte ik dat Darice dat juist leuk vondt. Daarom heb ik besloten om geluiden die vanaf een bepaalde locatie in beeld komen op deze plek te zetten. Zo zie je bijvoorbeeld de "computer beep" bij de computer, zodat je precies weet uit welke computer het komt.
+
+**Add nonsense**
+
+Ik de bioscoop zou je waarschijnlijk niet zo snel trillende teksten of draaiende schermen zien, maar juist omdat we experimenteel mochten zijn leek het me leuk om dit te doen. Op eerste oogopslag zou je misschien denken dat flikkerende achtergronden alleen maar vervelend zijn, maar door de mogelijkheid tot experimenteren kwam ik erachter dat het juist personality en sfeer kan toevoegen.
+
 ## Week 1: Eerste experiment
 
 In de eerste week heb ik een aantal verschillende dingen geprobeerd om te kijken hoe dit door Darice werd ervaren. Ik had een spreker toegevoegd aan de teksten wat het duidelijker zou moeten maken wie er op welk moment aan het woord is. Het contrast mag nog wel wat hoger om de leesbaarheid te bevoorderen. In mijn eerste versie had ik de animaties overeen laten komen met wat er werd gezegd, maar dit kan verwarring veroorzaken. Zo draaide het woord "spin" ook daadwerkelijk rond. Dit kan een misverstand veroorzaken met hoe het woord gezegd word, dus heb ik na de eerste week besloten om mij volledig op de achtergrondgeluiden te focussen. Hieronder zie je een aantal screenshots van mijn eerste versie:
